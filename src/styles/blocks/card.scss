@@ -1,5 +1,4 @@
 .card {
-  box-sizing: border-box;
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -28,7 +27,6 @@
     font-size: 12px;
     line-height: 18px;
     margin-bottom: 4px;
-    margin-top: 0;
   }
 
   &__text {
@@ -36,7 +34,6 @@
     line-height: 14px;
     margin-bottom: 16px;
     color: $secondary;
-    margin-top: 0;
   }
 
   &__reviews {
@@ -48,7 +45,6 @@
   &__reviews-count {
     font-size: 10px;
     line-height: 14px;
-    margin-top: 2px;
   }
 
   &__bottom {
@@ -75,7 +71,6 @@
   }
 
   &__button {
-    box-sizing: border-box;
     display: block;
     width: 100%;
     padding: 12px 0;
